@@ -14,15 +14,40 @@ body, button {
     color: white;
 }
 
+.colore-green {
+    color: green;
+}
+
 .content {
     display: flex;
     margin: 0 0.25rem 1rem 0.25rem;
     position: relative;
 }
 
+.flex-a-center{
+    align-items: center;
+    display: flex;
+}
+
+.flex-column-a-center{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
 header {
     padding-bottom: 2.4rem;
     position: relative;
+}
+
+.icon-size {
+    font-size: 1.7rem;
 }
 
 .insection {
@@ -47,7 +72,7 @@ main {
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem calc(3.25% - 0.5rem);
+    margin: 2rem 4rem;
     justify-content: center;
 }
 
@@ -65,4 +90,12 @@ main {
     font-size: 0.8rem;
     margin-right: 0.5rem;
     padding: 0.2rem 0.3rem;
+}
+
+.margin-0-1rem {
+    margin: 0 0.5rem;
+}
+
+.margin-right-1rem {
+    margin-right: 1rem;
 }
